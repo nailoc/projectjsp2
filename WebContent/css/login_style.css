@@ -1,0 +1,164 @@
+div#wrapper{
+	width : 1200px;
+	margin : 0 auto;
+	padding : 0;
+}
+div#wrapper section{
+	width : 70%;
+	height : 600px;
+	padding-left : 15%;
+	padding-right : 15%;
+	/* border : 1px solid red; */
+}
+
+div#wrapper section>h1{
+	width : 100%;
+	font-size : 30px;
+	/* border : 1px solid red;	 */
+}
+div#wrapper section>h1#colorRed{
+	color : red;
+	margin-top : 50px;
+}
+div#wrapper section>div#login{
+	width : 50%;
+	height : 300px;
+	padding : 40px;
+	/* border : 1px solid red; */
+	border-right : 1px solid lightgray;
+	float : left;
+}
+div#wrapper section>div#login>h3{
+	color :  #2c2c2c;
+}
+div#wrapper section>div#login>input{
+	width : 95%;
+	height : 40px;
+	border : 0;
+	border-bottom : 1px solid gray;
+}
+div#wrapper section>div#login>input#id{
+	margin-bottom : 20px;
+}
+div#wrapper section>div#login>img{
+	width : 200px;
+}
+div#wrapper section>div#login>a>img{
+	width : 200px;
+	margin : 0;
+}
+div#wrapper section>div#login>img#loginbutton{
+	margin-right : 10px;
+	cursor : pointer; /* 마우스를 올렸을때 손가락 모양이 나타나게 함 */
+}
+button#loginbutton{
+	border : none;
+	width : 200px;
+	height : 58px;
+	margin : 0;
+	background : url(../img/로그인버튼.PNG) no-repeat;
+	/* background-image : url(../img/회원가입버튼.PNG); */
+	cursor : pointer; /* 마우스를 올렸을때 손가락 모양이 나타나게 함 */
+}
+
+div#wrapper section>div#otherlogin{
+	width : 30%;
+	height : 300px;
+	padding : 40px;
+	/* border : 1px solid red; */
+	float : left;
+}
+div#wrapper section>div#otherlogin>h3{
+	color :  #2c2c2c;
+}
+div#wrapper section>div#otherlogin>a>img{
+	width: 100%;
+	margin-bottom : 10px;
+}
+
+
+div#wrapper div#nonmemberlogin{
+	width : 70%;
+	height : 300px;
+	padding-left : 15%;
+	padding-right : 15%;
+	background-color : #e2d6c7;
+	/* border : 1px solid blue; */
+}
+
+div#wrapper div#nonmemberlogin>h3{
+	width : 150px;
+	float : left;
+	cursor : pointer; /* 마우스를 올렸을때 손가락 모양이 나타나게 함 */
+}
+div#wrapper div#nonmemberlogin>div.nonmemberbox{
+	width : 100%;
+	height : 130px;
+	clear : both;
+	/* border : 1px solid blue; */
+}
+div#wrapper div#nonmemberlogin>div#nonmemberorder2{
+	line-height : 90px;
+	/* display:none; */
+}
+div#wrapper div#nonmemberlogin>div#nonmemberorder2>div{
+	width : 90%;
+	height : 100%;
+	padding-left : 10%;
+	/* border : 1px solid green; */
+	margin-bottom : 10px;
+	background-color : #fff;
+}
+div#wrapper div#nonmemberlogin>div#nonmemberorder2>p{
+	text-align : center;
+}
+div#wrapper div#nonmemberlogin>div#nonmemberorder2>p>img{
+	cursor : pointer;
+}
+
+div#wrapper div#nonmemberlogin>div#nonmemberorderlist2{
+	display:none;
+}
+
+div#wrapper div#nonmemberlogin>div#nonmemberorderlist2>div{
+	width : 90%;
+	height : 100%;
+	padding-left : 5%;
+	padding-right : 5%;
+	/* border : 1px solid green; */
+	margin-bottom : 10px;
+	background-color : #fff;
+	
+}
+div#wrapper div#nonmemberlogin>div#nonmemberorderlist2>div>h3{
+	width : 120px;
+	margin : 0;
+	float : left;
+	margin-top : 50px;
+}
+div#wrapper div#nonmemberlogin>div#nonmemberorderlist2>div>h3#h3password{
+	margin-left : 35px;
+}
+div#wrapper div#nonmemberlogin>div#nonmemberorderlist2>div>input{
+	width : 200px;
+	margin : 0;
+	float : left;
+	margin-top : 35px;
+	height : 40px;
+	font-size : 30px;
+	border : 0;
+	border-bottom : 1px solid gray;
+}
+
+div#wrapper div#nonmemberlogin>div#nonmemberorderlist2>p{
+	text-align : center;
+}
+div#wrapper div#nonmemberlogin>div#nonmemberorderlist2>p>img{
+	cursor : pointer;
+}
+
+
+
+
+
+

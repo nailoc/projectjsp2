@@ -1,0 +1,343 @@
+body {
+	width: 100%;
+	min-height: 100%;
+	color: #000;
+	background : #ffffff;
+	word-wrap : normal;
+	word-break : keep-all;	
+	min-width: 900px;
+}
+
+div.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+div.top {	
+	width: 1100px;
+	height: 98px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+div.top a {
+	text-decoration: none;
+	color: black;
+}
+
+div.top_image {
+	width: 102px;
+	height: 98px;
+	float: left;
+}
+
+.top_menu_side, #menu, #submenu, #submenu2 {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.top_menu_side >li#menu {
+	height: 98px;
+	float: left;
+	margin-top : -20px;
+	margin-left: 40px;
+}
+
+.top_menu_side .menu1{
+	margin-left: 40px;
+	width: 160px;
+}
+
+.top_menu_side .menu2 {
+	width: 140px;
+}
+
+.top_menu_side .menu3 {
+	width: 120px;
+}
+
+.top_menu_side .menu4 {
+	width: 170px;
+}
+
+.top_menu_side .menu5 img {
+	margin-top : -14px;
+	
+}
+
+.top_menu_side >li#menu >a {
+	display: block;
+	padding: 8px 16px;
+	margin-top: 56px;
+	font-weight: 700;
+    font-size: 1.25rem;  
+}
+
+.top_menu_side:hover #submenu{	
+	width: 210px;
+	height: 390px;
+	margin-top: -2px;
+	opacity: 1;
+	visibility: visible;
+	background-color: #ffffff;
+	z-index : 2;
+}
+.top_menu_side:hover #submenu2 {
+	width: 210px;
+	height: 376px;
+	margin-top: -2px;
+	opacity: 1;
+	visibility: visible;
+	background-color: #ffffff;
+	z-index : 2;	
+}
+
+ul#submenu {
+	margin-top: 10px;
+	position : absolute;
+	opacity : 0;
+	visibility: hidden;
+}
+ul#submenu2 {
+	margin-top: 10px;
+	position : absolute;
+	opacity : 0;
+	visibility: hidden;
+}
+ul#submenu >li {	
+	padding: 16px;
+}
+ul#submenu >li a{	
+	font-weight: 600;
+	font-size: 0.8rem;
+}
+
+
+
+.mySlides {
+	display: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.slideshow-container {
+	width: 1100px;
+	position: relative;
+	margin: auto; 
+}
+
+.dot1 {
+	width: 150px;
+	background-color: red;
+	margin-top: -42px;
+	text-align: center;
+	margin-left : 450px;
+}
+.dot {
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active {
+	background-color: red; 
+}
+
+
+
+.middle-youtube{
+	width: 1100px;
+	position: relative;
+	margin: auto;
+	
+	background-color:black;
+	height: 500px;
+}
+
+.middle-youtube >iframe {
+	width: 100%;
+	height: 100%;
+}
+
+
+.middle-sns {
+	width: 1100px;
+	height: 160px;
+	background-color : #683a2f;	
+	margin: 0 auto;
+}
+
+.web_container{
+	width: 900px;
+	background-color:#ffffff;
+}
+.container-youtube{
+	float:left;
+	margin-left: 131px;
+}
+.container-youtube img {
+	height:160px;	
+}
+
+.container-facebook {
+	float:left;
+}
+.container-facebook img {
+	height:160px;
+	width: 270px;
+	margin-left: -30px;
+}
+.container-instagram {
+	float:left;
+	margin-right: -20px;
+}
+.container-instagram img{
+	height:160px;
+	
+}
+
+
+
+div.middle-picture {
+	width: 1100px;
+	height: 320px;
+	min-width: 900px;
+	margin: 0 auto;
+	background-color:#ffffff;
+}
+
+div.middle-picture img {
+	width: 550px;
+	height: 320px;
+	
+}
+div.app {
+	float:left;
+}
+
+
+
+div.bottom-search {
+	height: 850px;
+	width: 1100px;
+	background-color:#ffffff;	
+	margin: 0 auto;
+}
+
+div.bottom-search h2, p{
+	text-align: center;
+}
+
+div.bottom-search h2 {
+	font-size: 70px;
+	font-weight: 900;
+	margin-top: 100px;
+}
+div.bottom-search p {
+	font-size: 30px;
+	margin-top: -30px;
+}
+
+div.bottom-image img {
+	width:1100px;
+	height:600px;
+}
+
+
+
+div.bottom-menu-round{	
+	width: 1100px;
+	height: 585px;
+	margin : 0 auto;
+	background-image: url("https://www.burgerking.co.kr/dist/img/bg_botmenu.3d4b484b.jpg");
+}
+
+div.bottom-menu-round ul,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.bottom-main-menu {
+	padding: 20px 24px;
+	float:left;
+	width: 150px;
+	height: 350px;
+	font-weight: 700;
+	font-size: 25px;
+	border-right : 1px dashed #d9c8be;
+}
+
+.bottom-main-menu a {
+	text-decoration: none;
+	color: #89513a;
+}
+#firstmenu {
+	margin-left: 65px;	
+}
+
+#lastmenu {
+	margin-left: 10px;
+	border-right: 0;
+}
+
+.bottom-submenu li {
+	font-size: 15px;
+	padding: 3px 0;
+	margin-top: 20px;
+}
+
+
+
+footer{
+	width : 1100px;
+	height : 250px;
+	background-color : #2c2c2c;
+	margin: 0 auto;
+}
+
+footer div#inf{
+	width : 550px;
+	height : 100%;
+	color : gray;
+	float : left;
+}
+
+footer div#inf img{
+	margin-top : 80px;
+	margin-left : 50px;
+}
+
+footer div#inf p{
+	margin-left : 50px;
+}
+		
+footer div#other{
+	width : 550px;
+	height : 100%;
+	float : left;
+}
+
+footer div#other>p{
+	width : 100%;
+	text-align : center;
+	margin-top : 80px;
+	color : gray;
+}
+
+footer div#other>p>a{
+	color : gray;
+	text-decoration : none;
+}
+
+footer div#other>p#button{
+	margin : 0;
+}

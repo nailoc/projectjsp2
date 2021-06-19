@@ -1,0 +1,210 @@
+body {
+	width: 100%;
+	min-width: 1850px;
+	margin: 0 auto;
+	font-family: Arial, Typo_SsangmunDongB;
+}
+.header {
+	width: 100%;
+	margin: 0 auto;
+	height: 200px;
+	background-color: red;
+}
+
+
+.myk_container {
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
+	background-color: black;
+}
+.page_navi {
+	width: 75%;
+	margin: 0 auto;
+}
+.page_navi a, .page_navi span {
+	text-decoration: none;
+	color: #ffffff;
+}
+.page_navi span {
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+}
+#location_btn {
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	background-color: #ffffff;
+	color: black;
+	font-weight: bold;
+}
+.page_navi p {
+	color: #ffffff;
+	float: right;
+	font-weight: bold;
+}
+/*.page_navi img {
+	margin-top: 10px;
+}*/
+
+
+.myk_content1, .member {
+	width: 75%;
+	margin: 0 auto;
+}
+.con_title h2 {
+	margin-top: 60px;
+	font-size: 40px;
+	font-weight: bold;
+	border-bottom: 3px solid black;
+	padding-bottom: 20px;
+}
+
+.member {
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+}
+.user {
+	width: 31%;
+	border-right: 1px solid #eeeeee;
+	margin-top: 20px;
+	padding-right: 100px;
+	float: left;
+}
+.user p {
+	font-size: 25px;
+}
+.user strong {
+	font-weight: bold;
+}
+.user a {
+	text-decoration: none;
+}
+.user span {
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
+}
+
+
+.coupon {
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+	padding-right: 70px;
+	padding-left: 20px;
+	border-right: 1px solid #eeeeee;
+}
+.coupon:hover {
+	cursor: pointer;
+}
+.coupon p {
+	float: left;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #afafaf;
+}
+.coupon a {
+	text-decoration: none;
+	color: black;
+}
+.coupon strong {
+	font-weight: bold;
+}
+.coupon img {
+	float: left;
+	margin-top: 10px;
+}
+
+.stamp {
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.stamp:hover {
+	cursor: pointer;
+}
+.stamp p {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #afafaf;
+}
+.stamp a {
+	text-decoration: none;
+}
+.stamp strong {
+	font-weight: bold;
+	color: black;
+}
+.stamp img {
+	float: left;
+}
+
+
+.myk_content2 {
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: #f2ebe6;
+	overflow: auto;
+}
+.myk_content2 div {
+	float: left;
+}
+.set {
+	border-right: 1px solid #c0c0c0;
+	width: 50%;
+	float: left;
+	margin-top: 2%;
+}
+.set p {
+	float: left;
+	margin-left: 35%;
+}
+.set a {
+	text-decoration: none;
+}
+.set strong {
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+}
+.set img {
+	margin-left: 50px;
+}
+
+.place {
+	width: 45%;
+	float: right;
+	margin-top: 2%;
+}
+.place p {
+	float: left;
+	margin-left: 30%;
+}
+.place a {
+	text-decoration: none;
+}
+.place strong {
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+}
+.place img {
+	margin-left: 50px;
+}
+
+
+.footer {
+	width:100%;
+	margin: 0 auto;
+	height: 200px;
+	background-color: #818181;
+}

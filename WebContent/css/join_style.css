@@ -1,0 +1,94 @@
+div#wrapper{
+	width : 1200px;
+	margin : 0 auto;
+}
+section{
+	width : 1000px;
+	height : 850px;
+	/* border : 1px solid red; */
+	padding-top : 50px;
+	padding-left : 100px;
+	padding-right : 100px;
+	background-color : #e2d6c7;
+}
+section h3{
+	width : 100%;
+}
+section div#basicsInf{
+	width : 100%;
+	height : 40%;
+	/* border : 1px solid red; */
+	background-color : #fff;
+}
+section div#basicsInf div.inf{
+	width : 100%;
+	height : 33%;
+	/* border : 1px solid red; */
+}
+section div#basicsInf div.inf>h2{
+	width : 25%;
+	height : 100%;
+	margin : 0;
+	margin-left : 5%;
+	line-height : 120px;
+	float : left;
+	/* border : 1px solid red; */
+}
+section div#basicsInf div.inf>input{
+	width : 66%;
+	height : 45%;
+	margin : 0;
+	margin-top : 30px;
+	border : none;
+	border-bottom : 1px solid gray;
+	font-size : 30px;
+	float : left;
+}
+section div#password{
+	width : 100%;
+	height : 20%;
+	/* border : 1px solid red; */
+	background-color : #fff;
+}
+section div#password>h2{
+	width : 20%;
+	height : 100%;
+	margin : 0;
+	margin-left : 5%;
+	float : left;
+	/* border : 1px solid red; */
+	line-height : 100px;
+}
+
+section div#password>input{
+	width : 70%;
+	float : left;
+	margin : 0;
+	margin-top : 30px;
+	border : none;
+	border-bottom : 1px solid gray;
+	font-size : 30px;
+}
+
+
+section p{
+	width : 100%;
+	text-align : center;
+}
+/* section p>img{
+	cursor : pointer; 마우스를 올렸을때 손가락 모양이 나타나게 함
+} */
+button#joinbutton{
+	border : none;
+	width : 200px;
+	height : 60px;
+	margin : 0;
+	background : url(../img/회원가입버튼.PNG) no-repeat;
+	/* background-image : url(../img/회원가입버튼.PNG); */
+	cursor : pointer; /* 마우스를 올렸을때 손가락 모양이 나타나게 함 */
+}
+
+
+
+
+

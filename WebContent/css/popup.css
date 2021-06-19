@@ -1,0 +1,54 @@
+body {
+	width: 500px;
+	height: 410px;
+	
+}
+
+.popup {
+	width:100%;
+	height: 100%;
+	margin: -8px;
+	
+}
+
+.popupimg {
+	text-align: center;
+}
+
+.popupadd {
+	text-align: center;
+}
+
+.addr {
+	font-weight: 800;
+	font-size: 1.875rem;
+    color: #010101;
+}
+
+.txtz {
+	font-size: 1.2rem;
+}
+
+.button_yesno{
+	width:100%;
+	height: 80px;
+}
+.button_yesno >input {
+	width : 250px;
+	height: 80px;
+	font-weight: 700;
+    font-size: 1.625rem;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    background-image: url("https://www.burgerking.co.kr/dist/img/bg_btn02_pattern.908362f6.png");
+}
+
+.no {
+	float:left;
+	background-color: #2e2e2e;
+}
+
+.yes {
+	background-color: #e22219;
+}

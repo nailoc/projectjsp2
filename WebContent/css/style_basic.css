@@ -1,0 +1,57 @@
+body {
+	width: 100%;
+	min-width: 1850px;
+	margin: 0 auto;
+	font-family: Arial;
+	background-color: #f2ebe6;
+}
+.header {
+	width: 100%;
+	margin: 0 auto;
+	height: 200px;
+	background-color: red;
+}
+
+.myk_container {
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
+	background-color: black;
+}
+.page_navi {
+	width: 75%;
+	margin: 0 auto;
+}
+.page_navi a, .page_navi span {
+	text-decoration: none;
+	color: #ffffff;
+}
+.page_navi span {
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+}
+#location_btn {
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	background-color: #ffffff;
+	color: black;
+	font-weight: bold;
+}
+.page_navi p {
+	color: #ffffff;
+	float: right;
+	font-weight: bold;
+}
+
+
+
+
+.footer {
+	width:100%;
+	margin: 0 auto;
+	height: 200px;
+	background-color: #818181;
+}

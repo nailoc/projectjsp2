@@ -1,0 +1,377 @@
+div#wrapper{
+	/* position : absolute;
+	z-index : 0; */
+	/* position : relative; */
+	width : 1200px;
+	margin : 0 auto;
+}
+
+		section{
+			width : 1000px;
+			padding-left : 100px;
+			padding-right : 100px;
+			padding-top : 30px;
+			padding-bottom : 30px;
+			background-color : #e2d6c7;
+			/* display : none; */
+		}
+		section>h1{
+			width : 90%;
+			margin : 0;
+			margin-left : 5%;
+			margin-bottom : 30px;
+			font-size : 35px;
+		}
+		section>div#selectbox{
+			width : 100%;
+			height : 50px;
+			/* border : 1px solid blue; */
+		}
+		section>div#selectbox>div{
+			float : left;
+		}
+		section>div#selectbox>div#allselectbox{
+			width : 20%;
+			height :100%;
+		}
+		section>div#selectbox>div#allselectbox>p{
+			float : left;
+			margin : 0;
+		}
+		p#check{
+			width : 50px;
+			height :100%;
+			font-weight : bold;
+			/* border : 1px solid red; */
+			text-align : center;
+			line-height : 45px;
+			font-size : 40px;
+			color : #fff;
+			background-color : lightgray;
+			border-radius : 10px;
+			cursor : pointer; /* 마우스 올리면 손가락 표시 나옴 */
+		}
+		p#allselect{
+			height :100%;
+			padding-left : 10px;
+			font-weight : bold;
+			line-height : 50px;
+			font-size : 25px;
+			color : gray;
+		}
+		
+		div#like{
+			width : 50px;
+			height :100%;
+			font-weight : bold;
+			text-align : center;
+			line-height : 45px;
+			font-size : 40px;
+			color : #fff;
+			background-color : #000;
+			border-radius : 10px;
+			cursor : pointer;
+			margin-left : 610px;
+		}
+		div#delete{
+			width : 80px;
+			height :100%;
+			font-weight : bold;
+			font-size : 20px;
+			text-align : center;
+			background-color : #000;
+			border-radius : 10px;
+			color : #fff;
+			cursor : pointer;
+			margin-left : 30px;
+		}
+		div#delete>p{
+			width : 100%;
+			margin : 0;
+			line-height : 50px;
+		}
+		div.cartstore{
+			width : 90%;
+			height : 550px;
+			padding-top : 20px;
+			padding-left : 5%;
+			padding-right : 5%;
+			background-color : #fff;
+			margin-top : 30px;
+			margin-bottom : 30px;
+		}
+		div.cartstore2{
+			width : 90%;
+			height : 300px;
+			padding-top : 20px;
+			padding-left : 5%;
+			padding-right : 5%;
+			background-color : #fff;
+			margin-top : 30px;
+			margin-bottom : 30px;
+		}
+		div.closebox{
+			width : 100%;
+			height : 50px;
+		}
+		div.closebox>img.closeicon{
+			float : right;
+			margin : 0;
+			margin-left : 30px;
+			cursor : pointer; /* 마우스 올리면 손가락 표시 나옴 */
+		}
+		div.cartstore>div.burgerinf{
+			width : 100%;
+			height : 150px;
+			border-bottom : 1px solid lightgray;
+		}
+		div.cartstore>div.burgerinf>div.burgerdetail{
+			width : 70%;
+			height : 100%;
+			float : left;
+		}
+		div.cartstore2>div.burgerinf{
+			width : 100%;
+			height : 150px;
+			border-bottom : 1px solid lightgray;
+		}
+		div.cartstore2>div.burgerinf>div.burgerdetail{
+			width : 70%;
+			height : 100%;
+			float : left;
+		}
+		div.burgerdetail>div.check2box{
+			width : 50px;
+			height : 100%;
+			margin : 0;
+			margin-top: 5px;
+			margin-right : 15px;
+			float : left;
+		}
+		div.burgerdetail>div.check2box>p{
+			width :100%;
+			height : 50px;
+			font-weight : bold;
+			text-align : center;
+			line-height : 45px;
+			font-size : 40px;
+			color : #fff;
+			background-color : lightgray;
+			border-radius : 10px;
+			cursor : pointer;
+			margin : 0;
+		}
+		div.burgerdetail>h1, div.burgerdetail>h2, div.burgerdetail>h3{
+			margin : 0;
+		}
+		div.burgerdetail>h1{
+			float : left;
+			width : 560px;
+			margin-top : 5px;
+			font-size : 40px;
+			/* border : 1px solid red; */
+		}
+		div.burgerdetail>h3{
+			float : left;
+			width : 560px;
+			margin-top : 10px;
+			font-size : 20px;
+			/* border : 1px solid red; */
+			color : gray;
+		}
+		div.burgerdetail>h2{
+			float : left;
+			width : 560px;
+			margin-top : 10px;
+			font-size : 30px;
+			/* border : 1px solid red; */
+		}
+		div.cartstore>div.burgerinf>div.burgerinfimg{
+			width : 20%;
+			height : 90%;
+			margin-left : 25px;
+			float : left;
+		}
+		div.cartstore>div.burgerinf>div.burgerinfimg>img{
+			width : 100%;
+			height : 100%;
+		}
+		div.cartstore2>div.burgerinf>div.burgerinfimg{
+			width : 20%;
+			height : 90%;
+			margin-left : 25px;
+			float : left;
+		}
+		div.cartstore2>div.burgerinf>div.burgerinfimg>img{
+			width : 100%;
+			height : 100%;
+		}
+		div.cartstore>div.busersideinfbox{
+			width : 100%;
+			height : 170px;
+			
+			margin-top : 15px;
+			padding-bottom : 20px;
+			border-bottom : 1px solid lightgray;
+		}
+		div.cartstore>div.busersideinfbox>div.busersideinf{
+			width : 100%;
+			height : 30%;
+			margin : 0;
+			margin-bottom : 1%;
+			/* border : 1px solid red; */
+		}
+		div.busersideinf>h3, div.busersideinf>p{
+			margin : 0;
+			height : 100%;
+			float : left;
+			/* border : 1px solid blue; */
+			line-height : 50px;
+			text-align : left;
+		}
+		div.busersideinf>h3.sideinf1{
+			width : 100px;
+			color : gray;
+		}
+		div.busersideinf>h3.sideinf2{
+			width : 400px;
+			margin-left : 30px;
+		}
+		div.busersideinf>h3.sideinf3{
+			width : 200px;
+			margin-left : 30px;
+		}
+		div.busersideinf>p.change{
+			width : 70px;
+			text-align : center;
+			font-weight : bold;
+			font-size : 25px;
+			line-height : 50px;
+			background-color : #000;
+			color : #fff;
+			border-radius : 10px;
+			margin-left : 30px;
+			cursor : pointer; /* 마우스 올리면 손가락 표시 나옴 */
+		}
+		div.pricecheck{
+			width : 100%;
+			height : 100px;
+			margin-top : 20px;
+			/* border : 1px solid blue; */
+		}
+		div.pricecheck>h3, div.pricecheck>h2, div.pricecheck>div{
+			margin : 0;
+			float : left;
+		}
+		div.pricecheck>h3{
+			width : 100px;
+			height : 100px;
+			text-align : left;
+			line-height : 50px;
+		}
+		div.pricecheck>div{
+			width : 430px;
+			height : 100px;
+			font-weight : bold;
+			font-size : 40px;
+			margin-left : 30px;
+		}
+		div.pricecheck>div>p{
+			float : left;
+			margin : 0;
+		}
+		div.pricecheck>div>p.count{
+			width : 80px;
+			height : 50px;
+			text-align : center;
+			line-height : 50px;
+		}
+		div.pricecheck>div>p.updown{
+			width : 50px;
+			height : 50px;
+			background-color : lightgray;
+			text-align : center;
+			line-height : 50px;
+			border-radius : 10px;
+			color : #fff;
+			cursor : pointer; /* 마우스 올리면 손가락 표시 나옴 */
+		}
+		div.pricecheck>h2{
+			width : 200px;
+			height : 50px;
+			text-align : center;
+			line-height : 50px;
+			margin-left : 35px;
+			color : red;
+			/* border : 1px solid blue; */
+		}
+		
+		div#finalpricebox{
+			width : 100%;
+			height : 80px;
+			background-color : #fff;
+		}
+		div#finalpricebox>h1{
+			width : 40%;
+			height : 100%;
+			background-color : #fff;
+			margin : 0;
+			float : left;
+			padding-left: 5%;
+			padding-right: 5%;
+			line-height : 80px;
+		}
+		div#finalpricebox>h1#finalprice{
+			color : red;
+			text-align : right;
+		}
+		div#otherbox{
+			width : 100%;
+			height : 80px;
+			margin-top : 20px;
+			/* border : 1px solid red; */
+		}
+		div#otherbox>ul{
+			width : 55%;
+			height : 100%;
+			float : left;
+			font-weight : bold;
+			margin-right : 25px;
+		}
+		div#otherbox>img{
+			width : 18%;
+			margin-top : 15px;
+			cursor : pointer; /* 마우스 올리면 손가락 표시 나옴 */
+		}
+		div#otherbox>img#addorder{
+			margin-right : 10px;
+		}
+		
+		aside{
+			width : 1000px;
+			height : 500px;
+			padding-left : 100px;
+			padding-right : 100px;
+			padding-top : 30px;
+			padding-bottom : 30px;
+			background-image : url('../img/카트메뉴없음배경.PNG');
+		}
+		div#cartnolistbox{
+			width : 100%;
+			height : 80%;
+			float : left;
+		}
+		div#cartnolistbox>img{
+			margin-top : 50px;
+			margin-left : 300px;
+		}
+		div#addorder2box{
+			width : 100%;
+			height : 20%;
+			float : left;
+		}
+		div#addorder2box>img{
+			margin-left : 370px;
+			cursor : pointer; /* 마우스 올리면 손가락 표시 나옴 */
+		}
+		

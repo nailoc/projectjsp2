@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+div.sideDrink{
+	width : 100%;
+	height : auto;
+	/* border : 1px solid red; */
+	
+	/* z-index : 99; */
+	margin : 0 auto;
+	
+	padding : 0;
+	padding-bottom : 30px;
+	background-color : #e2d6c7;
+	overflow: auto;
+}
+
+
+div.bugerboxinf{
+	width : 100%;
+	height : 80px;
+	background-color : #fff;
+	margin : 0;
+}
+div.bugerboxinf>p{
+	width : 50%;
+	margin : 0;
+	margin-top : 15px;
+	margin-left : 15px;
+	font-size : 30px;
+	font-weight : bold;
+	float : left;
+}
+div.bugerboxinf>img{
+	float : right;
+	margin-right : 15px;
+	margin-top : 15px;
+	cursor : pointer;
+}
+div.sideDrink>div.sidestyle{
+	width : 32%;
+	height : 180px;
+	 
+	float : left;
+	cursor : pointer; /* 마우스 올리면 손가락 표시 나옴 */
+	text-align: center;
+}
+div.sideDrink>div.sidestyle>img{
+	width : 70%;
+	height : 70%;
+	margin-left : 10%;
+	margin-top : 20px;
+	
+	/* background-image : url('../img/X아이콘.JPG');
+	background-size : 100%; */
+}
+div.sideDrink>div.sidestyle>p{
+	width : 100%;
+	margin : 0;
+	margin-top : 5px;
+	text-align : center;
+}

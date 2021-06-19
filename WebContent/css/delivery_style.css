@@ -1,0 +1,247 @@
+div#wrapper{
+	width : 1200px;
+	margin : 0 auto;
+}
+
+div#wrapper section{
+	width : 1000px;
+/* 	height : 500px; */
+	padding-left : 100px;
+	padding-right : 100px;
+	/* border : 1px solid blue; */
+	/* margin : 0 auto; */
+	/* position : relative; */
+}
+
+div#wrapper section>div#mainmenuNav{
+	width : 100% ;
+	height : 50px;
+	/* border : 1px solid red; */
+	padding-top : 40px;
+}
+div#wrapper section>div#mainmenuNav>p{
+	width : 100px;
+	/* border : 1px solid blue; */
+	float : left;
+	margin : 0;
+	font-size : 40px;
+	font-weight : bold;
+	text-align : center;
+}
+div#wrapper section>div#mainmenuNav>nav{
+	width : 800px;
+	float : left;
+	/* border : 1px solid blue; */
+	text-align : center;
+	margin-left : 60px;
+	margin-top : 15px;
+}
+div#wrapper section>div#mainmenuNav>nav>p{
+	float : left;
+	margin : 0;
+	font-weight : bold;
+	cursor : pointer;
+	color : gray;
+}
+p#special, p#whopperjr, p#dessert{
+	width : 130px;
+}
+p#premium{
+	width : 80px;
+	margin : 10px;
+}
+p#whopper, p#chicken, p#side{
+	width : 80px;
+}
+div.menu{
+	width : 100%;
+	/* height : 500px */;
+	/* border : 1px solid red; */
+	/* float : left; */
+	padding-top : 50px;
+	display : none;
+}
+div.menu>div{
+	width : 23%;
+	height : 250px;
+	margin : 0;
+	margin-left : 2%;
+	margin-bottom : 30px;
+	/* border : 1px solid blue; */
+	/* background-color : black; */
+	float : left;
+	cursor : pointer;
+}
+div.menu>div>img{
+	width : 100%;
+	height : 60%;
+	/* background-image : url('../img/오토바이아이콘.PNG'); */
+	background-size : 100% 100%;
+	background-repeat : no-repeat;
+}
+div.menu>div>p, div.menu>div>h3, div.menu>div>h2{
+	margin : 0;
+	width : 100%;
+	text-align : center;
+} 
+div.menu>div>p{
+	color : gray;
+	margin-top : 5px;
+}
+div.menu>div>h3{
+	color : red;
+	margin-top : 5px;
+}
+div#bugerbox{
+	width : 50%;
+	/* height : 600px; */
+	/* border : 1px solid red; */
+	position : absolute;
+	z-index : 99;
+	margin : 0;
+	margin-left : 180px;
+	padding : 0;
+	padding-bottom : 20px;
+	background-color : #e2d6c7;
+	display : none;
+}
+div.bugerboxinf{
+	width : 100%;
+	height : 80px;
+	background-color : #fff;
+	margin : 0;
+}
+div.bugerboxinf>p{
+	width : 50%;
+	margin : 0;
+	margin-top : 15px;
+	margin-left : 15px;
+	font-size : 30px;
+	font-weight : bold;
+	float : left;
+}
+div.bugerboxinf>img{
+	float : right;
+	margin-right : 15px;
+	margin-top : 15px;
+	cursor : pointer;
+}
+div#bugerbox div#bugerimg{
+	width : 100%;
+	height : 200px;
+	background-color : black;
+	margin : 0;
+}
+div#bugerbox div#bugerimg>div{
+	width : 50%;
+	height : 100%;
+	margin : 0;
+	float : left;
+	color : #fff;
+}
+div#bugerimg>div>h1{
+	margin-top : 35px;
+}
+div#bugerimg>div>h1, div#bugerimg>div>p{
+	width : 90%;
+	margin-left : 10%;
+}
+div#bugerbox div#bugerimg>div>img{
+	width : 100%;
+	height : 100%;
+}
+div#bugerbox div.bugerstyle{
+	width : 80%;
+	height : 100px;
+	margin : 0;
+	margin-top : 20px;
+	margin-left : 10%;
+	background-color : #fff;
+	cursor : pointer; /* 마우스 올리면 손가락 표시 나옴 */
+}
+div#bugerbox div.bugerstyle>div{
+	width : 65%;
+	height : 100%;
+	margin : 0;
+	float : left;
+}
+div#bugerbox div.bugerstyle>div>h2, div#bugerbox div.bugerstyle>div>p, div#bugerbox div.bugerstyle>div>h3{
+	margin : 0;
+	width : 90%;
+	margin-left : 10%;
+	margin-top : 5px;
+}
+div#bugerbox div.bugerstyle>div>h2{
+	margin-top : 10px;
+}
+div#bugerbox div.bugerstyle>div>h3{
+	color : red;
+}
+div#bugerbox div.bugerstyle>img{
+	width : 35%;
+	height : 100%;
+	margin : 0;
+	float : left;
+}
+div.sideDrink{
+	width : 50%;
+	/* height : 600px; */
+	/* border : 1px solid red; */
+	position : absolute;
+	z-index : 99;
+	margin : 0;
+	margin-left : 180px;
+	padding : 0;
+	padding-bottom : 30px;
+	background-color : #e2d6c7;
+	display : none;
+}
+
+div.sideDrink>div.sidestyle{
+	width : 33%;
+	height : 200px;
+	/* border : 1px solid red; */
+	float : left;
+	cursor : pointer; /* 마우스 올리면 손가락 표시 나옴 */
+}
+div.sideDrink>div.sidestyle>img{
+	width : 70%;
+	height : 70%;
+	margin-left : 10%;
+	margin-top : 20px;
+	background-image : url('../img/X아이콘.JPG');
+	background-size : 100%;
+}
+div.sideDrink>div.sidestyle>p{
+	width : 100%;
+	margin : 0;
+	margin-top : 5px;
+	text-align : center;
+}
+
+/* div.bugerboxinf{
+	width : 100%;
+	height : 80px;
+	background-color : #fff;
+	margin : 0;
+}
+div.bugerboxinf>p{
+	width : 50%;
+	margin : 0;
+	margin-top : 15px;
+	margin-left : 15px;
+	font-size : 30px;
+	font-weight : bold;
+	float : left;
+}
+div.bugerboxinf>img{
+	float : right;
+	margin-right : 15px;
+	margin-top : 15px;
+	cursor : pointer; 
+} */
+
+
+footer{
+	clear : both; 
+}

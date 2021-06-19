@@ -1,0 +1,105 @@
+.chg_container, .btn {
+	width: 75%;
+	margin: 0 auto;
+}
+.title h2 {
+	margin-top: 60px;
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+
+.atten p, .reason p, .confirm p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #606060;
+}
+.atten_con {
+	height: 300px;
+}
+.atten_head {
+	font-size: 20px;
+	height: 80px;
+	background-color: #efefef;
+	padding-left: 40px;
+}
+.atten_head span {
+	height: 80px;
+	line-height: 80px;
+}
+.atten_main {
+	font-size: 17px;
+	line-height: 1.5em;
+	background-color: #ffffff;
+	padding: 25px;
+}
+
+.reason {
+	margin-top: 50px;
+}
+.reason_con {
+	height: 80px;
+	background-color: #ffffff;
+}
+.reason_con select {
+	border-top-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;
+	border-bottom: 2px dotted #9f9f9f;
+	padding: 15px;
+	width: 80%;
+	vertical-align: middle;
+	margin-left: 10%;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.reason_opt {
+	color: #cfcfcf;
+}
+
+.confirm {
+	margin-top: 50px;
+}
+.confirm_con {
+	background-color: #ffffff;
+	padding-left: 40px;
+}
+.confirm_con td {
+	font-size: 22px;
+	font-weight: bold;
+}
+.confirm_h {
+	padding: 30px 60px 30px 20px;
+}
+.confirm_user {
+	padding: 30px 50px 30px 50px;
+}
+.confirm_user input[type="password"] {
+	border-left-width:0;
+	border-right-width:0;
+	border-top-width:0;
+	border-bottom-width:1;
+	padding: 5px;
+	font-size: 18px;
+	width: 500px;
+	margin-bottom: -7px;
+}
+.confirm_user p {
+	font-size: 15px;
+	color: red;
+	
+}
+
+.last_chk {
+	margin: 30px 0;
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn {
+	text-align: center;
+	margin-bottom: 30px;
+}

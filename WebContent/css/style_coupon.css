@@ -1,0 +1,32 @@
+.content_box {
+	width: 75%;
+	margin: 0 auto;
+	min-height: 200px;
+}
+.content_hd h2 {
+	width: 30%;
+	font-size: 40px;
+	font-weight: bold;
+}
+.content_hd p {
+	width: 25%;
+	float: right;
+	margin-top: -75px;
+	font-size: 22px;
+}
+
+.cont {
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 15%;
+	text-align: center;
+}
+.cont img {
+	margin-bottom: 20px;
+}
+.cont span {
+	font-size: 24px;
+	font-weight: bold;
+	color: #575757;
+	text-align: center;
+}

@@ -1,0 +1,105 @@
+.title, .chg_content1 {
+	width: 75%;
+	margin: 0 auto;
+}
+h2 {
+	margin-top: 60px;
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+
+
+.chg_content1 p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #606060;
+}
+.user_info {
+	background-color: #ffffff;
+	padding: 40px;
+}
+.tb_bold {
+	font-size: 22px;
+	font-weight: bold;
+	padding: 30px 70px 30px 15px;
+}
+.tb_nor {
+	font-size: 20px;
+	padding: 30px 300px 30px 30px;
+}
+
+#phn_chg input[type="text"] {
+	margin-left: 40px;
+	padding-left: 20px;
+	width: 230px;
+	height: 40px;
+	border-left-width:0;
+	border-right-width:0;
+	border-top-width:0;
+	border-bottom-width:1;
+	font-size: 17px;
+}
+table button {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 10px;
+	width: 70px;
+	background-color: #818181;
+	border-radius: 5px;
+}
+table button:hover {
+	cursor: pointer;
+}
+
+
+.pwchg {
+	height: 100px;
+	vertical-align: middle;
+	line-height: 100px;
+	background-color: #ffffff;
+	padding-left: 5%;
+}
+.pwchg input[type="password"] {
+	border-left-width:0;
+	border-top-width:0;
+	border-right-width:0;
+	border-bottom-width:1;
+	width: 35%;
+	height: 50px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+
+.agree {
+	padding: 30px 70px 30px 40px;
+	background-color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.chg_btn {
+	text-align: center;
+}
+.chg_btn img {
+	padding: 20px 10px 0 0;
+}
+
+.leave {
+	text-align: right;
+	margin-bottom: 50px;
+}
+.leave a {
+	text-decoration: none;
+	
+}
+.leave p {
+	color: #1c1c1c;
+	font-weight: bold;
+	font-size: 18px;
+}
+.leave img {
+	padding-right: 5px;
+}
