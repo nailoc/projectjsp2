@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>버거킹</title>
+<title>jspweb13</title>
 <link rel="stylesheet" href="css/main.css"></link>
 <style></style>
 </head>

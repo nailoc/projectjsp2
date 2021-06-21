@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>사이드 변경</title>
+<title>jspweb13</title>
 <link rel = "stylesheet" href = "css/burgersidebox_style.css"></link>
 <style></style>
 </head>

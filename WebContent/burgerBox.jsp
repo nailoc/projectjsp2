@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>메뉴 선택</title>
+<title>jspweb13</title>
 <link rel = "stylesheet" href = "css/burgerbox_style.css"></link>
 <style></style>
 </head>

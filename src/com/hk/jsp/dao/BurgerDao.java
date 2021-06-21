@@ -8,7 +8,7 @@ import com.hk.jsp.vo.*;
 public class BurgerDao {
 	
 	private static String driveName = "com.mysql.jdbc.Driver";
-	private static String url = "jdbc:mysql://seongsu.freehongs.net:3306/bgweb?autoReconnect=true&validationQuery=select 1";
+	private static String url = "jdbc:mysql://seongsu.freehongs.net:3306/bgweb";
 	private static String user = "burgerking";
 	private static String password = "7oTVrqM9JUE}";
 	//sql정보
